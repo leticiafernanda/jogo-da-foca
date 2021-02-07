@@ -1,0 +1,90 @@
+body {
+	background-color: #303030;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial;
+    color: white;
+    padding-top: 5px;
+}
+
+div.letra {
+	display: inline-block;
+	border-bottom: rgb(255, 255, 255) solid 2px;
+	height: 100px;
+	width: 90px;
+	margin: auto 5px auto 5px;
+	position: relative;
+}
+
+div.letra p {
+	font-size: 60px;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px 0px 28px;
+	bottom: -5px;
+    }
+
+div.abc {
+	font-size: 18px;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #000;
+	padding: 5px;
+	margin: 4px; 
+	cursor: pointer;
+	align-self: center;
+	background-color: yellow;
+}
+
+
+div.abc:hover {
+	transform: scale(1.8);
+}
+
+div#tabuleiro {
+	width: 900px;
+	margin: 100px auto auto auto; 
+	text-align: center;
+	background-color: #303030(110, 190, 122);
+}
+
+div#barraNome {
+	margin: -22px auto auto -8px;
+	background-color: #294851;
+    height: 50px;
+    width: 1366px;
+}
+
+div#pagina {
+	margin: auto;
+	box-shadow: 0px 0px 10px rgb(253, 253, 253);
+	background-color: #fff;
+	height: 768px;
+	width: 900px;
+}
+
+div#dica {
+	height: 50px;
+	width: 600px;
+	transform: translateX(-130px);
+    margin: 60px auto -100px auto;
+    
+}
+
+div#rodape {
+	height: 50px;
+	background-color: #303030;
+    margin-top: 200px;
+}
+
+div#rodape p {
+	font-family: Arial;
+	color: white;
+	text-align: center;
+    
+}
